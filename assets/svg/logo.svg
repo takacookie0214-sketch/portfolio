@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="14 12 444 414" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
+  <!-- hair -->
+  <path d="M168 200 C150 175 140 150 146 125 C156 82 200 48 258 42 C310 38 352 58 378 86 C398 108 404 140 400 168 C397 186 392 198 386 206"/>
+  <path d="M168 200 C190 186 220 180 250 184 C290 189 320 196 350 208"/>
+  <path d="M182 162 L194 190 M226 166 L234 184 M266 172 L280 187 M308 166 L320 182"/>
+  <path d="M328 24 L333 46 L350 34"/>
+  <!-- face -->
+  <path d="M168 202 C168 230 176 248 196 258 L214 264"/>
+  <path d="M350 214 C352 236 340 254 322 264"/>
+  <!-- ear + earring -->
+  <path d="M352 210 C376 200 392 232 364 242"/>
+  <circle cx="364" cy="249" r="4" stroke-width="4"/>
+  <!-- eyes, nose, blush -->
+  <path d="M216 205 L216 213 M270 206 L270 214" stroke-width="8"/>
+  <path d="M239 228 L246 228" stroke-width="5"/>
+  <path d="M190 224 L196 216 M198 226 L204 218 M206 228 L212 220 M284 226 L290 218 M292 228 L298 220 M300 230 L306 222" stroke-width="4"/>
+  <!-- monitor -->
+  <path d="M66 252 L232 262 Q240 263 241 271 L247 352 Q247 362 238 362 L74 360 Q66 360 66 352 L60 260 Q59 251 66 252 Z"/>
+  <path d="M126 330 L125 310 Q140 307 141 315 Q141 323 126 323 M162 312 Q148 309 148 320 Q149 330 162 327" stroke-width="5"/>
+  <path d="M140 362 L143 380 M92 381 L192 385 L190 394 L94 391 Z"/>
+  <!-- keyboard + hand -->
+  <path d="M210 384 L304 390 L322 402 L218 402 Z"/>
+  <path d="M228 394 L304 397" stroke-width="4"/>
+  <path d="M288 380 Q296 362 318 368 Q332 376 322 388"/>
+  <!-- body / sweater -->
+  <path d="M243 282 L276 300 L346 262"/>
+  <path d="M346 262 C384 276 404 320 402 396"/>
+  <path d="M326 360 Q352 366 358 390"/>
+  <path d="M300 300 l5 6 l5 -6 M332 292 l5 6 l5 -6 M362 312 l5 6 l5 -6 M318 332 l5 6 l5 -6 M372 344 l5 6 l5 -6 M288 348 l5 6 l5 -6" stroke-width="4"/>
+  <path d="M258 402 L440 418"/>
+  <!-- sparkles + motion -->
+  <path d="M37 210 Q40 224 54 227 Q40 230 37 244 Q34 230 20 227 Q34 224 37 210 Z" stroke-width="5"/>
+  <path d="M30 248 Q32 256 40 258 Q32 260 30 268 Q28 260 20 258 Q28 256 30 248 Z" stroke-width="4"/>
+  <path d="M436 354 L440 376 M447 352 L448 366" stroke-width="5"/>
+</svg>

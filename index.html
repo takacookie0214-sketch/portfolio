@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nagao Takahiro — CG Artist</title>
+  <meta name="description" content="CGアーティスト 長尾崇寛のポートフォリオ。3DCG・VFX・オリジナル作品。" />
+  <meta name="theme-color" content="#0a0a0b" />
+  <meta property="og:title" content="Nagao Takahiro — CG Artist" />
+  <meta property="og:description" content="CGアーティスト 長尾崇寛のポートフォリオ。" />
+  <meta property="og:image" content="assets/img/hero.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Shippori+Mincho:wght@400;500&family=Zen+Kaku+Gothic+New:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/img/hero.webp" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="is-loading">
+  <!-- Intro loader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <span class="loader__art"></span>
+      <span class="loader__name">Nagao Takahiro</span>
+      <span class="loader__line"><i></i></span>
+      <span class="loader__count">000</span>
+    </div>
+  </div>
+
+  <!-- Page transition curtain -->
+  <div class="curtain" aria-hidden="true">
+    <div class="curtain__panel curtain__panel--a"></div>
+    <div class="curtain__panel curtain__panel--b"></div>
+    <div class="curtain__label"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="#index" class="header__logo" data-cursor="hover">
+      <span class="header__mark" aria-hidden="true"></span>
+      <span class="header__logo-text">Nagao Takahiro<em>CG Artist</em></span>
+    </a>
+    <nav class="header__nav" aria-label="Main">
+      <a href="#index" data-nav="home"><span>Index</span></a>
+      <a href="#works" data-nav="works"><span>Works</span></a>
+      <a href="#professional" data-nav="professional"><span>Professional</span></a>
+      <a href="#about" data-nav="about"><span>About</span></a>
+    </nav>
+    <div class="header__meta"><span class="clock" data-clock>--:--</span> JST</div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lightbox__close" aria-label="Close" data-cursor="hover">Close</button>
+    <button class="lightbox__nav lightbox__nav--prev" aria-label="Previous" data-cursor="hover">Prev</button>
+    <figure class="lightbox__figure"><img alt="" /></figure>
+    <button class="lightbox__nav lightbox__nav--next" aria-label="Next" data-cursor="hover">Next</button>
+    <div class="lightbox__count"></div>
+  </div>
+
+  <!-- Atmosphere -->
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"><em></em></span></div>
+
+  <noscript><p style="padding:40px;color:#ddd">このサイトの表示にはJavaScriptが必要です。</p></noscript>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
